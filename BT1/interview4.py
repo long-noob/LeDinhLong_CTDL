@@ -6,7 +6,6 @@ def are_anagrams(word1, word2):
     # Check if the sorted characters of the words are the same
     return sorted(word1) == sorted(word2)
 
-# Example usage:
 word1 = "ngu"
 word2 = "ung"
 result = are_anagrams(word1, word2)
